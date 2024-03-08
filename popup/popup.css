@@ -1,0 +1,87 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* Add your custom styles here */
+h2 {
+    margin:5px;
+    margin-bottom: 10px;
+    padding:0;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+body {
+    background-color: #c472ff;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 100%;
+    /* text-align: center; */
+    font-family: 'cwTeXYen', sans-serif;
+    color: #421363;
+}
+ul{
+    margin:0; 
+    padding:0;
+}
+.reminder-controls {
+    display: flex;
+    align-items: center;
+}
+.reminderInput {
+    background-color: rgb(253, 238, 255);
+}
+.reminderAddButton {
+    background-color: #6a5996; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+    
+}
+/* reminder list view */
+.reminderList {
+    margin-top: 15px;
+}
+.reminder-item {
+    background-color: #ebadff;
+    /* background-size: 100%; */
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* height: 20px;
+    width: 500px; */
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid #000000; */
+    list-style-type: none;
+}
+.reminder-item span {
+    flex-grow: 1; /* 讓文本佔滿剩餘空間 */
+    margin-left: 10px; /* 增加左邊間距 */
+}
+.checkbox-custom {
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    background: url(../assets/cat-test1.png) no-repeat top center;
+    background-size: 16px 16px;
+    cursor: pointer;
+}
+.checkbox-custom:checked {
+    opacity: 0.3;
+}
+#reminderInput {
+    flex-grow: 1; /* 讓輸入框佔滿剩餘空間 */
+    height: 20px;
+    width: 140px;
+    border-radius: 5px;
+}
+#addReminderButton {
+    margin-left: 10px; /* 調整新增按鈕的左邊間距 */
+}
+

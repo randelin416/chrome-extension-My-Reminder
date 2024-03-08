@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "My Reminder",
+  "version": "0.0.1",
+  "description": "A simple reminder extension",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "assets/cat-test1.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/cat-test1.png",
+    "48": "assets/cat-test1.png",
+    "128": "assets/cat-test1.png"
+  }
+}
